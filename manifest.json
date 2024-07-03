@@ -1,9 +1,11 @@
 {
     "manifest_version": 3,
-    "name": "HTML Injector",
+    "name": "Table First Item Logger",
     "version": "1.0",
-    "description": "Injects an HTML element into a website",
-    "permissions": ["activeTab", "scripting"],
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
     "background": {
         "service_worker": "background.js"
     },
@@ -14,11 +16,6 @@
         "48": "icons/icon48.png",
         "128": "icons/icon128.png"
         }
-    },
-    "content_scripts": [
-        {
-        "matches": ["https://bc.fun/game/crash"],
-        "js": ["content.js"]
-        }
-    ]
+    }
 }
+  
