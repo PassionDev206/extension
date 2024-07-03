@@ -1,0 +1,11 @@
+{
+    "name": "The next Crash value 1.1",
+    "version": "1.0.0",
+    "description": "the next crach value in the BC crash game",
+    "manifest_version": 3,
+    "author": "Ardiv Bin",
+    "action":{
+        "default_popup": "./popup/popup.html",
+        "default_title": "The next Crash value"
+    }
+}
